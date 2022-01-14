@@ -15,8 +15,8 @@ spec:
     path: charts/simplewebapp
   values:
     image:
-      repository: gcr.io/k8ssbondar/github.com/sergeybon/simplewebapp@sha256:f160e206b332bdb1a15b9bfbe97d417f1435e0325a0d4c3c098c04f1a72cebd4
-      tag: "production-7140ae898e92a171844a5f91b1193d49e38b7bb1"
+      repository: gcr.io/k8ssbondar/github.com/sergeybon/simplewebapp@sha256:3ba6b16a209931c212541c5a92fa8728b394b2106c4bb83b39daedb553efe96f
+      tag: "production-8914e6fb0c539681f37b6c25504728b2bc927fe0"
     replicaCount: 1
     service:
       port: 80
