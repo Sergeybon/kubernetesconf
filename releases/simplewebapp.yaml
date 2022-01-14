@@ -15,7 +15,7 @@ spec:
     path: charts/simplewebapp
   values:
     image:
-      repository: gcr.io/k8ssbondar/github.com/sergeybon/simplewebapp@sha256:a7d881f698d2192ff526bec34ceb36d280b29b16341b2870a188e9ac8e0ee409
+      repository: gcr.io/k8ssbondar/github.com/sergeybon/simplewebapp
       tag: "production"
     replicaCount: 1
     service:
