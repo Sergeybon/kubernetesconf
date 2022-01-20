@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: gcr.io/k8ssbondar/github.com/sergeybon/simplewebapp
-      tag: "production-a056b36"
+      tag: "production-80120d5"
     replicaCount: 1
     service:
       port: 80
